@@ -5,13 +5,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCOM1011 3D Prac.Plugins", "WCOM1011 3D Prac.Plugins.csproj", "{DCC71717-6D1C-8480-CC4F-CEE85A4F3604}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCOM1011 3D Prac.Editor.Plugins", "WCOM1011 3D Prac.Editor.Plugins.csproj", "{3A5175D0-DB9A-BFC4-0838-731E5CD7D8C3}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PackageManagerUI.Editor", "Unity.PackageManagerUI.Editor.csproj", "{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro.Editor", "Unity.TextMeshPro.Editor.csproj", "{3A848AB7-9891-EDDA-D555-BF184C2F81F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.StandardEvents", "UnityEditor.StandardEvents.csproj", "{6800202F-4402-D405-F8CB-03DC7BD78B92}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCOM1011 3D Prac.Editor.Plugins", "WCOM1011 3D Prac.Editor.Plugins.csproj", "{3A5175D0-DB9A-BFC4-0838-731E5CD7D8C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +27,10 @@ Global
 		{DCC71717-6D1C-8480-CC4F-CEE85A4F3604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCC71717-6D1C-8480-CC4F-CEE85A4F3604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCC71717-6D1C-8480-CC4F-CEE85A4F3604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5175D0-DB9A-BFC4-0838-731E5CD7D8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5175D0-DB9A-BFC4-0838-731E5CD7D8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5175D0-DB9A-BFC4-0838-731E5CD7D8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5175D0-DB9A-BFC4-0838-731E5CD7D8C3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,10 +43,6 @@ Global
 		{6800202F-4402-D405-F8CB-03DC7BD78B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6800202F-4402-D405-F8CB-03DC7BD78B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6800202F-4402-D405-F8CB-03DC7BD78B92}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3A5175D0-DB9A-BFC4-0838-731E5CD7D8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A5175D0-DB9A-BFC4-0838-731E5CD7D8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A5175D0-DB9A-BFC4-0838-731E5CD7D8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A5175D0-DB9A-BFC4-0838-731E5CD7D8C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
