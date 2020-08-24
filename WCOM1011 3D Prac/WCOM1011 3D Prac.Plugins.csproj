@@ -310,6 +310,14 @@
       <Project>{E8F6AEC7-C558-7A8C-1B77-5EF90B9AD9FD}</Project>
       <Name>Unity.ProBuilder.AddOns.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ProGrids.csproj">
+      <Project>{23450A3B-DD10-D6DE-896F-2D4F8941F4B4}</Project>
+      <Name>Unity.ProGrids</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProGrids.Editor.csproj">
+      <Project>{E913EAA8-A9B5-A283-DA3E-82F1B9EE0798}</Project>
+      <Name>Unity.ProGrids.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.StandardEvents.csproj">
       <Project>{6800202F-4402-D405-F8CB-03DC7BD78B92}</Project>
       <Name>UnityEditor.StandardEvents</Name>
@@ -565,6 +573,8 @@
     <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
     <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_VertexPicker.shader" />
     <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_VertexShader.shader" />
+    <None Include="Packages\com.unity.progrids\Font\SIL Open Font License.txt" />
+    <None Include="Packages\com.unity.progrids\Shader\GridShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

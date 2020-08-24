@@ -5,16 +5,16 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6800202F-4402-D405-F8CB-03DC7BD78B92}</ProjectGuid>
+    <ProjectGuid>{23450A3B-DD10-D6DE-896F-2D4F8941F4B4}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>UnityEditor.StandardEvents</AssemblyName>
+    <AssemblyName>Unity.ProGrids</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
-    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2018.2.0f2</UnityVersion>
     <RootNamespace></RootNamespace>
@@ -127,9 +127,6 @@
     <Reference Include="Managed/UnityEngine/UnityEngine.ParticleSystemModule">
       <HintPath>D:\Applications\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
-    <Reference Include="Managed/UnityEngine/UnityEngine.ParticlesLegacyModule">
-      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
-    </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.PerformanceReportingModule">
       <HintPath>D:\Applications\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
     </Reference>
@@ -147,9 +144,6 @@
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.SharedInternalsModule">
       <HintPath>D:\Applications\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="Managed/UnityEngine/UnityEngine.SpatialTrackingModule">
-      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.SpriteMaskModule">
       <HintPath>D:\Applications\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
@@ -344,35 +338,36 @@
       <HintPath>D:/Applications/2018.2.0f2/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
-      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll</HintPath>
+      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="System">
-      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll</HintPath>
+      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.dll</HintPath>
     </Reference>
     <Reference Include="System.Core">
-      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll</HintPath>
+      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization">
-      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll</HintPath>
+      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml">
-      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll</HintPath>
+      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq">
-      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll</HintPath>
+      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll</HintPath>
     </Reference>
     <Reference Include="UnityScript">
-      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll</HintPath>
+      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll</HintPath>
     </Reference>
     <Reference Include="UnityScript.Lang">
-      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll</HintPath>
+      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Boo.Lang">
-      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll</HintPath>
+      <HintPath>D:\Applications\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Packages\com.unity.standardevents\Editor\Importer.cs" />
+    <Compile Include="Packages\com.unity.progrids\Runtime\IgnoreSnap.cs" />
+    <Compile Include="Packages\com.unity.progrids\Runtime\IgnoreSnapAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />

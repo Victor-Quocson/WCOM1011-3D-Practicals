@@ -556,6 +556,8 @@
     <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
     <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_VertexPicker.shader" />
     <None Include="Packages\com.unity.probuilder\ProBuilder\Shader\pb_VertexShader.shader" />
+    <None Include="Packages\com.unity.progrids\Font\SIL Open Font License.txt" />
+    <None Include="Packages\com.unity.progrids\Shader\GridShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

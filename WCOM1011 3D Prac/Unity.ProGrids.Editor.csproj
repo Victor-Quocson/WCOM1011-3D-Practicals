@@ -5,9 +5,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6800202F-4402-D405-F8CB-03DC7BD78B92}</ProjectGuid>
+    <ProjectGuid>{E913EAA8-A9B5-A283-DA3E-82F1B9EE0798}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>UnityEditor.StandardEvents</AssemblyName>
+    <AssemblyName>Unity.ProGrids.Editor</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
@@ -372,7 +372,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Packages\com.unity.standardevents\Editor\Importer.cs" />
+    <ProjectReference Include="Unity.ProGrids.csproj">
+      <Project>{23450A3B-DD10-D6DE-896F-2D4F8941F4B4}</Project>
+      <Name>Unity.ProGrids</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Packages\com.unity.progrids\Editor\AssemblyInfo.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\Changelog.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\Defaults.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\EditorUtility.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\GridRenderer.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\IconUtility.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\MenuItems.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\PlayModeStateListener.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\PreferenceKeys.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\Preferences.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\ProGridsEditor.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\ProGridsEnums.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\ProGridsSceneToolbar.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\ScenePreferencesWindow.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\SemVer.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\Snapping.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\SnapSettings.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\ToggleContent.cs" />
+    <Compile Include="Packages\com.unity.progrids\Editor\Version.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
