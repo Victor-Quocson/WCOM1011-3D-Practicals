@@ -350,6 +350,10 @@
   <ItemGroup>
     <Compile Include="Assets\Interactivity\ClickToAnim.cs" />
     <Compile Include="Assets\Interactivity\TriggerToAnim.cs" />
+    <Compile Include="Assets\Navigation Scripts\EnemyChase.cs" />
+    <Compile Include="Assets\Navigation Scripts\EnemyPatrol.cs" />
+    <Compile Include="Assets\Navigation Scripts\GoalMover.cs" />
+    <Compile Include="Assets\Navigation Scripts\GoalSetting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
